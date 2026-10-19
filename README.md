@@ -29,6 +29,8 @@ Then follow the guide's own README to install dependencies and run it.
 | [Data Analyst](python/ai-data-analyst) | Natural-language data analysis with LiteLLM (works with any LLM provider), executing Python in a sandbox. |
 | [Claude Managed Agents](python/claude/claude-managed-agents) | Self-host Claude Managed Agents inside Daytona sandboxes. |
 | [Cursor Self-Hosted Machines](python/cursor/self-hosted-machines) | Run Cursor Cloud Agent pool workers on demand in Daytona sandboxes. |
+| [Claude Draws](python/computer-use/claude-draws) | Claude drawing on a browser sketchpad in a sandbox desktop, via the Anthropic computer toolset. |
+| [OpenAI Computer-Use Helpers](python/computer-use/openai-computer-use) | OpenAI model clicking through a browser on a sandbox desktop, via the OpenAI SDK's ComputerToolset. |
 | [Windows Computer-Use Evals](python/computer-use/windows-evals) | Windows GUI computer-use eval suite driven by Claude Code / Codex via MCP. |
 | [DSPy RLMs](python/dspy-rlms) | Run DSPy's Recursive Language Model (REPL-in-a-loop) module on Daytona. |
 | [Google ADK Code Generator](python/google-adk/code-generator-agent) | Google ADK agent that generates and verifies code with the Daytona plugin. |
@@ -36,6 +38,7 @@ Then follow the guide's own README to install dependencies and run it.
 | [LangGraph Plan-and-Execute](python/langgraph/plan-and-execute-data-agent) | Plan-and-execute ETL + analytical-SQL agent wired as a six-node state machine. |
 | [Model Serving (SGLang)](python/model-serving/sglang) | Serve gpt-oss-20b with SGLang on a GPU sandbox behind a preview URL. |
 | [Model Serving (vLLM)](python/model-serving/vllm) | Serve an open-weights model with vLLM on a GPU sandbox behind a preview URL. |
+| [Notte Browser Testing](python/notte/browser-testing) | Serve a web app from a sandbox and test it with a Notte cloud browser, via Playwright over CDP and the Notte CLI. |
 | [Recursive Language Models](python/recursive-language-models) | Recursive-LM agents that spawn sub-agents, each in its own sandbox. |
 | [OpenEnv (FinQA)](python/reinforcement-learning/openenv) | Evaluate and train models on FinQA with OpenEnv and Daytona sandboxes. |
 | [TRL RL Rollouts](python/reinforcement-learning/trl) | Run TRL RL rollouts, executing generated code in parallel sandboxes. |
